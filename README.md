@@ -1,11 +1,11 @@
 # Euclidean-Algorithm
 The code provided calculates the greatest common divisor (GCD) of two integers, N1 and N2, with N1>N2. 
 
-When the two numbers are coprime, i.e., their GCD is 1, the code calculates the modular multiplicative inverse of N2 module N1, i.e., it calculates the integer N such that N2 * N \equiv 1 (mod N1). 
+When the two numbers are coprime, i.e., their GCD is 1, the code calculates the modular multiplicative inverse of N2 module N1, i.e., it calculates the integer N such that N2 * N $\equiv$ 1 (mod N1). 
 
 
 ## Example 1
-### N1 = 59, N2=19
+ N1 = 59, N2=19
 ```
 ( 1 )	 59 = 0 (mod 59 )
 ( 2 )	 19 =  19  (mod 59 )
@@ -18,7 +18,7 @@ The inverse multiplicative of 19 (mod 59) is 28
 i.e., 19 * 28 = 1 (mod 59)
 ```
 ## Example 2
-### N1=123456789, N2=5432
+ N1=123456789, N2=5432
 ```
 ( 1 )	 123456789 = 0 (mod 123456789 )
 ( 2 )	 5432 =  5432  (mod 123456789 )
