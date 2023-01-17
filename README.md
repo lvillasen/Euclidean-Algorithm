@@ -1,7 +1,7 @@
 # Euclidean-Algorithm
-The code provided calculates the *greatest common divisor* (GCD) of two integers, N1 and N2, with N1>N2. 
+The code provided calculates the **greatest common divisor** (GCD) of two integers, N1 and N2, with N1>N2. 
 
-When the two numbers N1 and N2 are coprime, i.e., their GCD is 1, the code calculates the *modular multiplicative inverse* of N2 module N1, i.e., it calculates the integer N such that 
+When the two numbers N1 and N2 are coprime, i.e., their GCD is 1, the code calculates the **modular multiplicative inverse** of N2 module N1, i.e., it calculates the integer N such that 
 
 N2 * N $\equiv$ 1 (mod N1). 
 
