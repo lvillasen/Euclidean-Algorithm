@@ -3,7 +3,7 @@ Calculates the greatest common divisor (GCD) of two integers. When the two numbe
 
 
 ## Example 1
-
+```
 ( 1 )	 59 = 0 (mod 59 )
 ( 2 )	 19 =  19  (mod 59 )
 		 2 =  59 - 3 * 19  (mod N1)
@@ -13,9 +13,9 @@ Calculates the greatest common divisor (GCD) of two integers. When the two numbe
 
 The inverse multiplicative of 19 (mod 59) is 28
 i.e., 19 * 28 = 1 (mod 59)
-
+```
 ## Example 2
-
+```
 ( 1 )	 123456789 = 0 (mod 123456789 )
 ( 2 )	 5432 =  5432  (mod 123456789 )
 		 3725 =  123456789 - 22727 * 5432  (mod N1)
@@ -37,3 +37,4 @@ i.e., 19 * 28 = 1 (mod 59)
 
 The inverse multiplicative of 5432 (mod 123456789) is 52796414
 i.e., 5432 * 52796414 = 1 (mod 123456789)
+```
