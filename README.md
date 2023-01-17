@@ -7,7 +7,7 @@ N2 * N $\equiv$ 1 (mod N1).
 
 
 ## Example 1
- N1 = 59, N2=19
+ N1 = 59, N2 = 19
 ```
 ( 1 )	 59 = 0 (mod 59 )
 ( 2 )	 19 =  19  (mod 59 )
@@ -20,7 +20,7 @@ The inverse multiplicative of 19 (mod 59) is 28
 i.e., 19 * 28 = 1 (mod 59)
 ```
 ## Example 2
- N1=123456789, N2=5432
+ N1 = 123456789, N2 = 5432
 ```
 ( 1 )	 123456789 = 0 (mod 123456789 )
 ( 2 )	 5432 =  5432  (mod 123456789 )
@@ -43,4 +43,18 @@ i.e., 19 * 28 = 1 (mod 59)
 
 The inverse multiplicative of 5432 (mod 123456789) is 52796414
 i.e., 5432 * 52796414 = 1 (mod 123456789)
+```
+## Example 3
+N1 = 48, N2 = 18
+```
+48 = 0 (mod 48 )
+( 2 )	 18 =  18  (mod 48 )
+		 12 =  48 - 2 * 18  (mod N1)
+( 3 )	 12 =  -2 * 18  (mod N1)
+		 6 =  18 - 1 * 12  (mod N1)
+( 4 )	 6 =  3 * 18  (mod N1)
+		 0 =  12 - 2 * 6  (mod N1)
+( 5 )	 0 =  -8 * 18  (mod N1)
+
+The greatest common divisor (GCD) of  48  and  18  is  6
 ```
