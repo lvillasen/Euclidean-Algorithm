@@ -29,8 +29,12 @@ m = RSA-129 = 1143816257578888676692357799761466120102182967212423625625618429
 
 In 1994, a team consisting of Derek Atkins, Michael Graff, Arjen Lenstra, and Paul
 Leyland succeeded in factoring RSA-129 into p = 3490529510847650949147849619903898133417764638493387843990820577
- and q = 32769132993266709549961988190834461413177642967992942539798288533.
-To find the private key d, we need to compute d*e = 1 (mod (p-1)*(q-1)
+
+and 
+
+q = 32769132993266709549961988190834461413177642967992942539798288533.
+
+To find the private key d, we need to compute $$d*e = 1 (mod (p-1)*(q-1)$$
 
 Therefore N1 = RSA-129, N2 = 9007
 ```
