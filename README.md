@@ -39,7 +39,7 @@ q = 32769132993266709549961988190834461413177642967992942539798288533.
 
 To find the private key d, we need to compute 
 
-d*e = 1 (mod (p-1)*(q-1))
+d*e $\equiv$ 1 (mod (p-1)*(q-1))
 
 Therefore N1 = RSA-129, N2 = e = 9007
 ```
