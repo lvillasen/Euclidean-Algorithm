@@ -23,24 +23,21 @@ i.e., 19 * 28 = 1 (mod 59)
 
 In August 1977, Rivest, Shamir, and Adleman posed a challenge in Martin Gardner’s Mathematical Games column in
 Scientific American. Whitin the RSA encrypting algorithm
-Alice broadcasts her public exponent e and her modulus m where e = 9007 and
+Alice broadcasts her public exponent e and her modulus N where e = 9007 and
 
-m = RSA-129 = 1143816257578888676692357799761466120102182967212423625625618429
-35706935245733897830597123563958705058989075147599290026879543541. 
+N = RSA-129 = 1143816257578888676692357799761466120102182967212423625625618429
+
+RSA-129 has 129 decimal digits (426 bits)
 
 In 1994, a team consisting of Derek Atkins, Michael Graff, Arjen Lenstra, and Paul
 Leyland succeeded in factoring RSA-129 into 
 
 p = 3490529510847650949147849619903898133417764638493387843990820577
-
 and 
-
 q = 32769132993266709549961988190834461413177642967992942539798288533.
 
 To find the private key d, we need to compute 
-
 e * d $\equiv$ 1 (mod (p-1)*(q-1))
-
 Therefore N1 = (p-1) * (q-1) = 114381625757888867669235779976146612010218296721242362562561842899447272741619537331487285753220345512393667541112959643090434432
 
 N2 = e = 9007
